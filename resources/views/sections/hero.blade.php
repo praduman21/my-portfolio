@@ -37,7 +37,7 @@
     /* Cinematic Masked Reveal Animation for H1 */
     .reveal-wrapper {
         display: inline-block;
-        overflow: hidden; /* Ye mask ka kaam karega, text iske bahar hidden rahega */
+        overflow: hidden; 
         vertical-align: top;
     }
     
