@@ -200,7 +200,7 @@
             })
             .then(data => {
                 // Success Response Handle karna
-                result.innerHTML = "Message Sent Successfully via SMTP! I'll get back to you soon.";
+                result.innerHTML = "Message Sent Successfully.";
                 result.className = "mt-3 text-center fw-bold text-success";
                 result.style.display = "block";
                 form.reset();
