@@ -70,10 +70,6 @@
         <div class="row align-items-center">
             
             <div class="col-md-6 order-2 order-md-1 mt-5 mt-md-0">
-                
-                {{-- <span class="badge rounded-pill mb-3 px-3 py-2 slide-in-left" style="background: rgba(13, 110, 253, 0.1); border: 1px solid rgba(13, 110, 253, 0.3); color: #0d6efd; letter-spacing: 0.5px;">
-                    <i class="bi bi-code me-2"></i> Software Developer
-                </span> --}}
 
                 <h1 class="display-3 fw-bold mb-3 pt-3" style="line-height: 1.2;">
                     <span class="reveal-wrapper">
