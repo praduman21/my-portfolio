@@ -118,6 +118,11 @@
                             <input type="text" name="name" class="form-control bg-dark border-0 text-white custom-input shadow-none" id="nameInput" placeholder="Your Name" style="border-radius: 8px; background-color: rgba(255,255,255,0.03) !important;" required>
                             <label for="nameInput">Your Name</label>
                         </div>
+
+                        <div class="form-floating mb-4">
+                            <input type="text" name="phone" class="form-control bg-dark border-0 text-white custom-input shadow-none" id="phoneInput" placeholder="Your Phone" style="border-radius: 8px; background-color: rgba(255,255,255,0.03) !important;">
+                            <label for="phoneInput">Your Phone (Optional)</label>
+                        </div>
                         
                         <div class="form-floating mb-4">
                             <input type="email" name="email" class="form-control bg-dark border-0 text-white custom-input shadow-none" id="emailInput" placeholder="Your Email" style="border-radius: 8px; background-color: rgba(255,255,255,0.03) !important;" required>
@@ -177,6 +182,7 @@
             // Form data prepare karna
             const formData = {
                 name: document.getElementById('nameInput').value,
+                phone: document.getElementById('phoneInput').value,
                 email: document.getElementById('emailInput').value,
                 message: document.getElementById('messageInput').value
             };

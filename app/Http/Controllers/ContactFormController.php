@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Contact;
 use App\Mail\ContactMessage;
 use App\Mail\CustomerAcknowledgment;
 use Illuminate\Support\Facades\Mail;
@@ -12,9 +13,12 @@ class ContactFormController
         // 1. Form validation
         $data = $request->validate([
             'name' => 'required|string',
+            'phone' => 'nullable|numeric',
             'email' => 'required|email',
             'message' => 'required|string',
         ]);
+
+        $contact = Contact::create($data);
 
         // 2. SMTP ke threw khud ko mail bhejna
         Mail::to('pradumanyadav514@gmail.com')->send(new ContactMessage($data));
