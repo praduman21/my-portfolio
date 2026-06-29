@@ -102,7 +102,7 @@
                     <a href="https://github.com/praduman21" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; border-color: rgba(255,255,255,0.1); transition: all 0.3s;" onmouseover="this.style.background='#fff'; this.style.color='#000';" onmouseout="this.style.background='transparent'; this.style.color='#fff';" target="_blank">
                         <i class="bi bi-github fs-5"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/pradumanyadav/" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; border-color: rgba(255,255,255,0.1); transition: all 0.3s;" onmouseover="this.style.background='#0a66c2'; this.style.color='#fff'; this.style.borderColor='#0a66c2';" onmouseout="this.style.background='transparent'; this.style.color='#fff'; this.style.borderColor='rgba(255,255,255,0.1)';" target="_blank">
+                    <a href="https://www.linkedin.com/in/praduman-yadav/" class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; border-color: rgba(255,255,255,0.1); transition: all 0.3s;" onmouseover="this.style.background='#0a66c2'; this.style.color='#fff'; this.style.borderColor='#0a66c2';" onmouseout="this.style.background='transparent'; this.style.color='#fff'; this.style.borderColor='rgba(255,255,255,0.1)';" target="_blank">
                         <i class="bi bi-linkedin fs-5"></i>
                     </a>
                 </div>
